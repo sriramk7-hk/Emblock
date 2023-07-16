@@ -1,12 +1,14 @@
 import React from 'react'
-import { Grid } from 'semantic-ui-react'
+import { Grid, Image } from 'semantic-ui-react'
+import "./assets/css/Home.css" 
 
 function Home() {
   return (
-    <div>
-      <Grid>
-        <Grid.Row>
-          
+      
+      <div className='imageCenter'>
+        <Grid>
+        <Grid.Row >
+          <Image  src="./src/assets/images/iotboard.jpg" size="huge" className="imageStyle"/>
         </Grid.Row>
         <Grid.Row>
           

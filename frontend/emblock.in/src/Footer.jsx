@@ -5,18 +5,18 @@ import { Divider, Grid, Icon, List } from "semantic-ui-react"
 function Footer() {
   return (
     <footer className="footerPos">
-        <Divider inverted horizontal><div>Emblock</div></Divider>
+        <Divider inverted horizontal style={{marginTop: "3rem"}}><div class="footerTitle">Emblock</div></Divider>
         <p className='footerMessage'>We deliver hight quality product effectively with your preferred time</p>
-        <Grid textAlign='center' divided columns={3}>
-            <Grid.Column className='footerMargin'>
+        <Grid divided columns={3}>
+            <Grid.Column className='footerMessage'>
                 <h4>Contact</h4>
-                <List className=''>
+                <List>
                     <List.Item content={<p><Icon name="marker"/>Chennai,IN</p>}/>
                     <List.Item content={<a><Icon name="mail"/>contact@emblock.in</a>}/>
                     <List.Item content={<p><Icon name="phone"/>1234567890</p>}/>
                 </List>
             </Grid.Column>
-            <Grid.Column className='footerMargin'>
+            <Grid.Column className='footerMessage'>
                 <h4>Services</h4>
                 <List>
                     <List.Item content={<a>IOT&nbsp;Blockchain&nbsp;Integration</a>}/>
@@ -25,7 +25,7 @@ function Footer() {
                     <List.Item content={<a>Seamless&nbsp;Integration&nbsp;of&nbsp;Embedded&nbsp;products</a>}/>
                 </List>
             </Grid.Column>
-            <Grid.Column className='footerMargin'>
+            <Grid.Column className='footerMessage'>
                 <h4>About</h4>
                 <List>
                     <List.Item content={<a>Who&nbsp;are&nbsp;we?</a>}/>
