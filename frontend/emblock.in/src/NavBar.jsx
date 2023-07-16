@@ -24,8 +24,8 @@ function NavBar() {
   return (
     <div className="nav-bar">
     <Grid>
-        <Grid.Row>
-      <Menu pointing secondary inverted>  
+        <Grid.Row className="navbarStyle">
+      <Menu secondary className="menu">  
         <Menu.Item active={navItem === "home"} onClick={(e) => handleNavClick(1, e)} className="nav-text">Home</Menu.Item>
         <Menu.Item active={navItem === "projects"} onClick={(e) => handleNavClick(2, e)} className="nav-text">Projects</Menu.Item>
         <Menu.Item active={navItem === "about"} onClick={(e) => handleNavClick(3, e)} className="nav-text">About</Menu.Item>   

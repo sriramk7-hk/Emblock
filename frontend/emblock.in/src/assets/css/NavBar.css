@@ -7,4 +7,17 @@
 
 .nav-text {
     font-size: medium;
+    font-weight: 900;
+    
+}
+
+.navbarStyle{
+    background-color: rgb(30 215 96);
+    border-radius: 3rem;
+}
+
+.menu {
+    padding-left: 170px;
+    color: #161616;
+
 }

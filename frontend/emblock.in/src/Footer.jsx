@@ -1,11 +1,15 @@
 import React from 'react'
 import "./assets/css/footer.css"
+import _ from "lodash" 
 import { Divider, Grid, Icon, List } from "semantic-ui-react"
 
 function Footer() {
+  
+  const socialIcons = ["linkedin", "facebook square", "discord", "instagram", "youtube"];
+  
   return (
     <footer className="footerPos">
-        <Divider inverted horizontal style={{marginTop: "3rem"}}><div class="footerTitle">Emblock</div></Divider>
+        <Divider inverted horizontal style={{marginTop: "3rem"}}><div className="footerTitle">Emblock</div></Divider>
         <p className='footerMessage'>We deliver hight quality product effectively with your preferred time</p>
         <Grid divided columns={3}>
             <Grid.Column className='footerMessage'>
@@ -33,6 +37,13 @@ function Footer() {
                     <List.Item content={<a>Our&nbsp;future&nbsp;products</a>}/>
                 </List>
             </Grid.Column>
+            <Grid.Row centered columns={5}>
+                    <a><Icon name="linkedin" size='large'/></a>
+                    <a><Icon name="facebook" size='large'/></a>
+                    <a><Icon name="discord" size='large'/></a>
+                    <a><Icon name="instagram" size='large'/></a>
+                    <a><Icon name="youtube" size='large'/></a>
+            </Grid.Row>
         </Grid>
         <p className='footerMessageCopy'>Copyrights @ 2023 Emblock All Rights Reserved&nbsp;&nbsp;</p>
     </footer>
