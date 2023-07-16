@@ -1,0 +1,33 @@
+.footerPos {
+    bottom:0%;
+    left: 0%;
+    width: 100%;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: #161616;
+    z-index: 1;
+    color: bisque;
+    text-align: center;
+}
+
+.footerMessageCopy {
+    background-color: black;
+    color:rgb(174, 228, 192);
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+
+.footerMessage{
+    font-weight: 300;
+}
+
+a{
+    color:bisque;
+}
+
+.footerMargin{
+    /* margin-left: 10rem;
+    margin-right: 10rem; */
+    font-weight: 300;
+}

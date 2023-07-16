@@ -22,17 +22,21 @@ function NavBar() {
   }
 
   return (
-    <div>
+    <div className="nav-bar">
+    <Grid>
+        <Grid.Row>
       <Menu pointing secondary inverted>  
-        <Menu.Item active={navItem === "home"} onClick={(e) => handleNavClick(1, e)}>Home</Menu.Item>
-        <Menu.Item active={navItem === "projects"} onClick={(e) => handleNavClick(2, e)}>Projects</Menu.Item>
-        <Menu.Item active={navItem === "about"} onClick={(e) => handleNavClick(3, e)}>About</Menu.Item>   
+        <Menu.Item active={navItem === "home"} onClick={(e) => handleNavClick(1, e)} className="nav-text">Home</Menu.Item>
+        <Menu.Item active={navItem === "projects"} onClick={(e) => handleNavClick(2, e)} className="nav-text">Projects</Menu.Item>
+        <Menu.Item active={navItem === "about"} onClick={(e) => handleNavClick(3, e)} className="nav-text">About</Menu.Item>   
       </Menu>
-      <Grid>
+      </Grid.Row>
+        <Grid.Row>
         {navItem === "home" ? <Home /> : ""}
         {navItem === "projects" ? <Projects /> : ""}
         {navItem === "about" ? <About /> : ""}
-      </Grid>
+        </Grid.Row>
+    </Grid>
     </div>
   )
 }
