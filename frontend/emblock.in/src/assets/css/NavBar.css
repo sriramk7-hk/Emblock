@@ -21,3 +21,19 @@
     color: #161616;
 
 }
+@media only screen and (max-width: 412px){
+    .nav-bar{
+    padding: 2rem;
+    color: darkgray;
+}
+    .nav-text {
+    font-size: medium;
+    font-weight: 9;
+}
+    .menu {
+    padding-left: 70px;
+    color: #161616;
+
+}
+    
+}

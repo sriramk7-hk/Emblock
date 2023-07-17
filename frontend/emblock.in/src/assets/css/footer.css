@@ -5,7 +5,7 @@
     padding-top: 1px;
     padding-left: 8rem;
     padding-right: 8rem;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     background-color: #161616;
     color: bisque;
     text-align: center;
@@ -18,10 +18,15 @@
     margin-top: 1rem;
     border-radius: 3rem;
 }
+.reply{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 .footerMessage{
     font-weight: 300;
+    text-align: center;
 }
 
 .footerTitle{
@@ -37,4 +42,26 @@
 a{
     color:bisque;
 }
+    @media only screen and (max-width: 412px) {
+    .footerMessage{
+    font-weight: 1;
+    display:grid;
+    padding-bottom: 20px;
+    
+    }
+    .footerPos {
+    bottom:0%;
+    left: 0%;
+    width:100%;
+    padding:10px 3% 20px;
+    background-color: #161616;
+    color: bisque;
+    text-align: left;
+}
+    .reply{
+        display:flex;
+        text-align: center;
+    }
 
+  
+}
