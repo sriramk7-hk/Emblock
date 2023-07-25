@@ -9,6 +9,7 @@
     font-size: medium;
     font-weight: 900;
     
+    
 }
 
 .navbarStyle{
@@ -17,11 +18,13 @@
 }
 
 .menu {
-    padding-left: 170px;
+    padding-left: 35px;
     color: #161616;
 
 }
-@media only screen and (max-width: 412px){
+
+
+@media only screen and (max-width: 375px){
     .nav-bar{
     padding: 2rem;
     color: darkgray;

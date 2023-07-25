@@ -1,4 +1,4 @@
-import { Grid, Menu } from "semantic-ui-react";
+import { Grid, Menu, Image } from "semantic-ui-react";
 import "./assets/css/NavBar.css";
 import { useState } from "react";
 import Home from "./Home";
@@ -26,6 +26,9 @@ function NavBar() {
       <Grid>
         <Grid.Row className="navbarStyle">
           <Menu secondary className="menu">
+            <Menu.Item >
+              <Image src="./src/assets/images/logo1.png" size="mini" />
+            </Menu.Item>
             <Menu.Item
               active={navItem === "home"}
               onClick={(e) => handleNavClick(1, e)}

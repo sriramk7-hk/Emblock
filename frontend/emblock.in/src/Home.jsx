@@ -52,7 +52,7 @@ function Home() {
               better future.
             </p>
           </Header>
-          <Header color="grey" as="h4" className={visible ? "textSlide2" : ""}>
+          {/* <Header color="grey" as="h4" className={visible ? "textSlide2" : ""}>
             Objective:
             <p
               style={{ fontWeight: "300", fontSize: "14px", paddingTop: "2px" }}
@@ -61,7 +61,7 @@ function Home() {
               (AI) Internet Of Things (IOT) and web3 technologies to make a
               better future.
             </p>
-          </Header>
+          </Header> */}
         </Grid.Row>
         <Divider inverted horizontal>
           <div className="segmentTitle">Projects</div>
