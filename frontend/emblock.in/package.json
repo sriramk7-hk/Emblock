@@ -8,6 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
+    "test": "vitest",
     "build": "vite build --base=/Emblock/frontend/emblock.in",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -28,6 +29,7 @@
     "gh-pages": "^5.0.0",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
-    "vite": "^4.4.0"
+    "vite": "^4.4.0",
+    "vitest": "^0.33.0"
   }
 }

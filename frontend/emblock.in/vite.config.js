@@ -4,9 +4,9 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Emblock/",
+  base: "./",
 
   build: {
-    outDir: "/Emblock/frontend/emblock.in/build",
+    outDir: "/home/sriramk7/Projects/Emblock/frontend/emblock.in/build",
   },
 });
