@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/Emblock/",
 
   build: {
-    outDir: "./Emblock/frontend/emblock.in/build",
+    outDir: "./build",
   },
 });
