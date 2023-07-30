@@ -20,23 +20,69 @@
 .menu {
     padding-left: 35px;
     color: #161616;
+}
 
+.logoTitle{
+    font-size:20px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Poppins', serif;
+    color:#161616;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 2px solid #161616;
+    border-radius: .5rem;
+    background-color: rgb(30 215 96);
 }
 
 
-@media only screen and (max-width: 375px){
+
+@media only screen and (max-width: 500px){
     .nav-bar{
-    padding: 2rem;
-    color: darkgray;
-}
-    .nav-text {
-    font-size: medium;
-    font-weight: 9;
-}
-    .menu {
-    padding-left: 70px;
-    color: #161616;
+        padding: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        color: darkgray;
+    }
 
-}
+    .menu {
+        padding-left: 20px;
+        color: #161616;
+    }
+
+    .logoTitle{
+        display: none;
+        font-size:20px;
+        font-weight: 900;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Poppins', serif;
+        color:#161616;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: 2px solid #161616;
+        border-radius: .5rem;
+        background-color: rgb(30 215 96);
+    }
+
+    .nav-text {
+        font-size: medium;
+        font-weight: 900;
+    }
+
+    .navbarStyle{
+        background-color: rgb(30 215 96);
+        border-radius: 1rem;
+    }
     
 }
+
+@media only screen and (min-width: 501px) and (max-width: 700px){
+    .nav-bar{
+        padding: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        color: darkgray;
+    }
+} 

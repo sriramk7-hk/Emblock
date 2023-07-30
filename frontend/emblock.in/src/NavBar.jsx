@@ -1,6 +1,6 @@
 import { Grid, Menu, Image } from "semantic-ui-react";
 import "./assets/css/NavBar.css";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Home from "./Home";
 import Projects from "./Projects";
 import About from "./About";
@@ -26,8 +26,13 @@ function NavBar() {
       <Grid>
         <Grid.Row className="navbarStyle">
           <Menu secondary className="menu">
-            <Menu.Item >
-              <Image src="./src/assets/images/logo1.png" size="mini" />
+            <div className="logoTitle">
+              EMBLOCK
+            </div>
+            <Menu.Item>
+              {
+                <Image src="./src/assets/images/logo1.png" size="mini" className="logoImage" />
+              }
             </Menu.Item>
             <Menu.Item
               active={navItem === "home"}
@@ -36,13 +41,13 @@ function NavBar() {
             >
               Home
             </Menu.Item>
-            <Menu.Item
+            {/* <Menu.Item
               active={navItem === "projects"}
               onClick={(e) => handleNavClick(2, e)}
               className="nav-text"
             >
               Projects
-            </Menu.Item>
+            </Menu.Item> */}
             <Menu.Item
               active={navItem === "about"}
               onClick={(e) => handleNavClick(3, e)}

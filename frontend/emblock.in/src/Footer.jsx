@@ -50,7 +50,7 @@ function Footer() {
             />
           </List>
         </div>
-        <div className="footerMessage">
+        <div className="footerMessage marginFooter">
           <List>
             <h4>Services</h4>
             <List.Item content={<a>IOT&nbsp;Blockchain&nbsp;Integration</a>} />
@@ -58,7 +58,7 @@ function Footer() {
             <List.Item
               content={
                 <a>
-                  Development&nbsp;of&nbsp;websites&nbsp;in&nbsp;web2&nbsp;and&nbsp;web3
+                  Development&nbsp;of&nbsp;websites&nbsp;in&nbsp;web3
                 </a>
               }
             />
