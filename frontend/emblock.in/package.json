@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d build",
     "dev": "vite",
     "test": "vitest",
-    "build": "vite build --base=/Emblock/frontend/emblock.in",
+    "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
