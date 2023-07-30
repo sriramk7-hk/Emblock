@@ -5,7 +5,7 @@ import constants from '../constants'
 
 function About() {
   return (
-    <div className='centerA padded'>
+    <div className='centerA paddedA'>
       <Divider inverted horizontal><div className="segmentTitle">About</div></Divider>
       <div className='aboutDescription'>At Emblock, we provide IoT and Blockchain-enabled solutions inculcating core competency and QoS for our clients. Our vision scopes to give a futuristic approach using Web3. We also provide expertise solutions in wireless sensor networks (WSN). Innovation, determination, and continuous development are our key goals to approach a logical solution for our clients. We develop AR and VR-based applications, that suites the needs of our clients. We also strive to develop and constantly upgrade our company products and services thereby contributing to our motherland.</div>
       <Divider inverted horizontal><div className="segmentTitle">Meet Our Team</div></Divider>

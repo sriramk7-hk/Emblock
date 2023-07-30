@@ -67,7 +67,7 @@ function Home() {
           <div className="segmentTitle">Projects</div>
         </Divider>
         <Grid.Row centered>
-          <p className="padded">
+          <p className="homeDescription">
             As a startup, our primary goal is to disrupt the market and provide
             innovative solutions to meet the needs of our target customers. We
             understand that we are operating in a dynamic and competitive
