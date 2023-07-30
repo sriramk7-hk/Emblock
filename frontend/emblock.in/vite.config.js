@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Emblock/frontend/emblock.in/"
-})
+  base: "/Emblock/",
+
+  build: {
+    outDir: "/Emblock/frontend/emblock.in/build",
+  },
+});
