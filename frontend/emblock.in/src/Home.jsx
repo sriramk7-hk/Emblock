@@ -1,6 +1,8 @@
 import { React, useRef, useEffect, useState } from "react";
 import { Image, Grid, Header, Divider } from "semantic-ui-react";
 import "./assets/css/Home.css";
+import iotboard from "./assets/images/iotboard.png";
+import connected from "./assets/images/Connected.png";
 
 function Home() {
   const textRef = useRef();
@@ -18,7 +20,7 @@ function Home() {
       <Grid>
         <Grid.Row style={{ position: "relative" }} centered>
           <Image
-            src="./src/assets/images/iotboard.png"
+            src={iotboard}
             className="imageStyle"
           />
           <Header color="grey" as="h4" className="textSlide">
@@ -38,7 +40,7 @@ function Home() {
         <Grid.Row style={{ position: "relative" }}>
           <Image
             centered
-            src="./src/assets/images/Connected.png"
+            src={connected}
             className={"imageStyle1"}
           />
           <div ref={textRef}></div>
