@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import Home from "./Home";
 import Projects from "./Projects";
 import About from "./About";
+import logo from "./assets/images/logo1.png";
 
 function NavBar() {
   const [navItem, setNavItem] = useState("home");
@@ -31,7 +32,7 @@ function NavBar() {
             </div>
             <Menu.Item>
               {
-                <Image src="./src/assets/images/logo1.png" size="mini" className="logoImage" />
+                <Image src={logo} size="mini" className="logoImage" />
               }
             </Menu.Item>
             <Menu.Item
