@@ -17,9 +17,9 @@ function Footer() {
       <Divider inverted horizontal style={{ marginTop: "3rem" }}>
         <div className="footerTitle">Emblock</div>
       </Divider>
-      <p className="footerMessage">
+      {/* <p className="footerMessage">
         We deliver hight quality product effectively with your preferred time
-      </p>
+      </p> */}
       <Grid divided columns={3} className="reply">
         <div className="footerMessage">
           <List>
@@ -34,7 +34,7 @@ function Footer() {
             />
             <List.Item
               content={
-                <a>
+                <a href="mailto:contact@emblock.in">
                   <Icon name="mail" />
                   contact@emblock.in
                 </a>
@@ -44,7 +44,7 @@ function Footer() {
               content={
                 <p>
                   <Icon name="phone" />
-                  1234567890
+                  80567 01528
                 </p>
               }
             />
@@ -53,48 +53,47 @@ function Footer() {
         <div className="footerMessage marginFooter">
           <List>
             <h4>Services</h4>
-            <List.Item content={<a>IOT&nbsp;Blockchain&nbsp;Integration</a>} />
-            <List.Item content={<a>Development&nbsp;of&nbsp;Dapp</a>} />
+            <List.Item content={"IOT Blockchain Integration"} />
+            <List.Item content={"Development of Dapp"} />
             <List.Item
               content={
-                <a>
-                  Development&nbsp;of&nbsp;websites&nbsp;in&nbsp;web3
-                </a>
+                
+                  "VLSI Design"
               }
             />
             <List.Item
               content={
-                <a>
-                  Seamless&nbsp;Integration&nbsp;of&nbsp;Embedded&nbsp;products
-                </a>
+                
+                "Seamless Integration of Embedded products"
+                
               }
             />
           </List>
         </div>
-        <div className="footerMessage">
+        {/* <div className="footerMessage">
           <List>
             <h4>About</h4>
             <List.Item content={<a>Who&nbsp;are&nbsp;we?</a>} />
             <List.Item content={<a>Meet&nbsp;our&nbsp;team</a>} />
             <List.Item content={<a>Our&nbsp;future&nbsp;products</a>} />
           </List>
-        </div>
+        </div> */}
         <Grid.Row centered columns={5}>
-          <a>
+          <a href="https://www.linkedin.com/company/emblock-tech/">
             <Icon name="linkedin" size="large" />
           </a>
-          <a>
+          {/* <a>
             <Icon name="facebook" size="large" />
           </a>
           <a>
             <Icon name="discord" size="large" />
-          </a>
-          <a>
+          </a> */}
+          <a href="https://instagram.com/emblock_tech?igshid=MzRlODBiNWFlZA==">
             <Icon name="instagram" size="large" />
           </a>
-          <a>
+          {/* <a>
             <Icon name="youtube" size="large" />
-          </a>
+          </a> */}
         </Grid.Row>
       </Grid>
       <p className="footerMessageCopy">
