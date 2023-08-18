@@ -42,20 +42,20 @@ function NavBar() {
             >
               Home
             </Menu.Item>
-            {/* <Menu.Item
+            <Menu.Item
               active={navItem === "projects"}
               onClick={(e) => handleNavClick(2, e)}
               className="nav-text"
             >
-              Projects
-            </Menu.Item> */}
-            <Menu.Item
+              Services
+            </Menu.Item>
+            {/* <Menu.Item
               active={navItem === "about"}
               onClick={(e) => handleNavClick(3, e)}
               className="nav-text"
             >
               About
-            </Menu.Item>
+            </Menu.Item> */}
           </Menu>
         </Grid.Row>
         <Grid.Row>

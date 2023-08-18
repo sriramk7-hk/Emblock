@@ -58,12 +58,6 @@ function Footer() {
             <List.Item
               content={
                 
-                  "VLSI Design"
-              }
-            />
-            <List.Item
-              content={
-                
                 "Seamless Integration of Embedded products"
                 
               }
